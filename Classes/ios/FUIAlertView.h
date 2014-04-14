@@ -35,7 +35,7 @@
 - (NSInteger)addButtonWithTitle:(NSString *)title;    // returns index of button. 0 based.
 - (NSString *)buttonTitleAtIndex:(NSInteger)buttonIndex;
 @property(nonatomic,readonly) NSInteger numberOfButtons;
-@property(nonatomic) NSInteger cancelButtonIndex;      // if the delegate does not implement -alertViewCancel:, we pretend this button was clicked on. default is -1
+@property(nonatomic) NSUInteger cancelButtonIndex;      // if the delegate does not implement -alertViewCancel:, we pretend this button was clicked on. default is -1
 
 //max height of the alert, if set
 @property(nonatomic) NSInteger maxHeight;
