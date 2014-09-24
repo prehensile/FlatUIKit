@@ -12,6 +12,6 @@
 
 - (void) configureFlatNavigationBarWithColor:(UIColor *)color UI_APPEARANCE_SELECTOR;
 
-- (void) configureFlatNavigationBarWithColor:(UIColor *)color preserveBarShadow:(BOOL)preserveBarShadow; UI_APPEARANCE_SELECTOR
+- (void) configureFlatNavigationBarWithColor:(UIColor *)color preserveBarShadow:(BOOL)preserveBarShadow UI_APPEARANCE_SELECTOR
 
 @end
