@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FlatUIKit"
-  s.version      = "1.3"
+  s.version      = "1.4-prehensile"
   s.summary      = "A collection of awesome flat UI components for iOS."
   s.homepage     = "https://github.com/Grouper/FlatUIKit"
   s.license      = 'MIT'
